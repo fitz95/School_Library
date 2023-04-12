@@ -1,4 +1,4 @@
-# My_Enumerable-Ruby
+# Morse-Code-Decriptor-Ruby
 
 <a name="readme-top"></a>
 
@@ -19,15 +19,16 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 My_Enumerable-Ruby <a name="about-project"></a>
+# 📖 Morse-Code-Decriptor-Ruby <a name="about-project"></a>
 
-In this project, We created an enumerable module that contains 3 methods included in the Class by the Enumerable module.
+In this project, We created a morse code function that decrpts data in the form of symbols to letters, words and a sentence.
+
 ## 🛠 Built With <a name="built-with"></a>
 
 
 ### Tech Stack <a name="tech-stack"></a>
 
-<summary>Ruby</summary>
+<summary>Database</summary>
   <ul>
     <li><a href="https://www.ruby-lang.org/en/documentation/">Ruby</a></li>
   </ul>
@@ -35,8 +36,7 @@ In this project, We created an enumerable module that contains 3 methods include
 
 ### Key Features <a name="key-features"></a>
 
-- **Ruby Methods**
-- **Ruby Modules**
+- **Ruby Functions**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -64,7 +64,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone https://github.com/Timbar09/My_Enumerable-Ruby.git
+  git clone https://github.com/Timbar09/Morse-Code-Decriptor-Ruby.git
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -90,7 +90,7 @@ Clone this repository to your desired folder:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Timbar09/My_Enumerable-Ruby/issues).
+Feel free to check the [issues page](https://github.com/Timbar09/Vet-Clinic-Database/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
