@@ -1,4 +1,4 @@
-# Morse-Code-Decriptor-Ruby
+# School Librart
 
 <a name="readme-top"></a>
 
@@ -19,9 +19,9 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 Morse-Code-Decriptor-Ruby <a name="about-project"></a>
+# 📖 School Library <a name="about-project"></a>
 
-In this project, We created a morse code function that decrpts data in the form of symbols to letters, words and a sentence.
+In this project, We created a sample school library database.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -74,8 +74,7 @@ Clone this repository to your desired folder:
 ## 👥 Authors <a name="authors"></a>
 
 | 👤 Author | GitHub | Twitter | LinkedIn |
-| :-- | :-- | :-- | :-- |
-| Miles Mosweu | [@Timbar09](https://github.com/Timbar09) | [@Milez09](https://twitter.com/Milez09) | [@miles-mosweu09](https://www.linkedin.com/in/miles-mosweu09) |
+| :-- | :-- | :-- | :-- |gi
 | Fitz Gerald | [@fitz95](https://github.com/fitz95) | [@nsonggerald](https://twitter.com/nsonggerald) | [@nsong-asoh](https://www.linkedin.com/in/nsong-asoh) |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
