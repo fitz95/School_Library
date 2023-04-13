@@ -1,5 +1,5 @@
-require_relative 'Nameable'
-require_relative 'Person'
+require_relative 'nameable'
+require_relative 'person'
 
 class Decorator < Nameable
   def initialize(name)
