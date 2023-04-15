@@ -2,26 +2,6 @@ require_relative 'app'
 
 APP = App.new
 
-def person_info()
-    print 'Do you want to create a student (1) or a teacher (2)? [Input the number]: '
-    type = gets.chomp.to_i
-    print 'Age: '
-    age = gets.chomp.to_i
-    print 'Name: '
-    name = gets.chomp
-    if type == 1
-      print 'Has parent permission? [Y/N]: '
-      parent_permission = gets.chomp.downcase == 'y'
-      APP.create_person(name, age, 'student', parent_permission: parent_permission)
-    elsif type == 2
-      print 'Specialization: '
-      specialization = gets.chomp
-      APP.create_person(name, age, 'teacher', specialization: specialization)
-    else
-      puts 'Invalid option'
-    end
-end
-
 def main
   puts "\nPlease choose an option by entering a number:
 1 - List all books
@@ -38,7 +18,7 @@ def main
   when 2
     APP.list_of_people
   when 3
-    person_info()
+    APP.person_info
   when 4
     APP.create_book
   when 5
