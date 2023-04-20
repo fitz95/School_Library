@@ -1,7 +1,6 @@
 require './classes/app'
 require './classes/options'
 
-
 def main
   options = Options.new
   puts '___________________________________________________________'
@@ -10,7 +9,7 @@ def main
   puts '___________________________________________________________'
   puts ''
 
-  loop do 
+  loop do
     display_menu
     option = gets.chomp
 
@@ -22,8 +21,6 @@ def main
     options.options(option)
   end
 end
-
-
 
 def display_menu
   puts ''
