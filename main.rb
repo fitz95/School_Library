@@ -1,41 +1,42 @@
-require_relative 'app'
+require './classes/app'
+require './classes/options'
 
-APP = App.new
 
 def main
-  puts "\nPlease choose an option by entering a number:
-1 - List all books
-2 - List all people
-3 - Create a person
-4 - Create a book
-5 - Create a rental
-6 - List all rentals for a given person id
-7 - Exit"
-  user_choice = gets.chomp.to_i
-  case user_choice
-  when 1
-    APP.list_of_books
-  when 2
-    APP.list_of_people
-  when 3
-    APP.person_info
-  when 4
-    APP.create_book
-  when 5
-    APP.create_rental
-  when 6
-    APP.list_rentals_by_person_id
-  when 7
-    puts 'Thank you for using this app!'
-    exit 0
-  else
-    puts 'That is not a valid option'
+  options = Options.new
+  puts '___________________________________________________________'
+  puts ''
+  puts 'WELCOME TO THE SCHOOL LIBRARY APP'
+  puts '___________________________________________________________'
+  puts ''
+
+  loop do 
+    display_menu
+    option = gets.chomp
+
+    if option == '7'
+      puts 'Thank You for using this application'
+      return
+    end
+
+    options.options(option)
   end
-rescue Interrupt
-  warn "\nProgram exited"
-  exit 130
 end
 
-puts 'Welcome to School Library App!'
 
-loop { main }
+
+def display_menu
+  puts ''
+  puts 'Please choose an option by entering a number:'
+  puts '1 - List all books'
+  puts '2 - List all people'
+  puts '3 - Create a person'
+  puts '4 - Create a book'
+  puts '5 - Create a rental'
+  puts '6 - List all rentals for a given person id'
+  puts '7 - Exit'
+  puts ''
+  print 'Enter number: '
+end
+
+main
